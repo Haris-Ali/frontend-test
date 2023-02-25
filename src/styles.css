@@ -237,3 +237,23 @@ ul.feature-list li::before {
 }
 
 /* Service section end */
+
+
+/* Footer section styles */
+
+.footer-container {
+  background-image: url('./assets/images/footer-img.svg');
+  background-repeat: no-repeat;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: end;
+  padding-block: 38px;
+}
+
+.footer-grid-item {
+  text-align: end;
+}
