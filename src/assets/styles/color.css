@@ -2,6 +2,14 @@
   background-color: var(--blue-900);
 }
 
+.bg-midblue {
+  background-color: var(--blue-600);
+}
+
+.bg-blue {
+  background-color: var(--blue-200);
+}
+
 .bg-lightblue {
   background-color: var(--blue-100);
 }
@@ -14,8 +22,16 @@
   background-color: var(--green-300);
 }
 
+.bg-orange {
+  background-color: var(--orange);
+}
+
 .text-white {
   color: var(--white);
+}
+
+.text-black {
+  color: var(--black);
 }
 
 .text-darkblue {

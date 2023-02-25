@@ -1,0 +1,25 @@
+<div class="bg-darkblue bg-sm" style="margin-top: 0.125rem;">
+  <div class="d-flex container flex-sm-column align-items-sm-center" style="height: 700px;">
+    <div class="d-flex-column padding-block-5rem gap-1rem align-items-sm-center">
+      <h1 class="text-white font-gilroy-bold font-50px font-sm-50px font-sm-50px text-sm-center" style="line-height: 1;">Lorem ipsum dolor sit amet consectetur</h1>
+      <div class="bg-blue width-fit-content padding-inline-8 cursor-pointer features" *ngIf="currentIdx === 0" (click)="toggleFeatures()">
+        <h1 class="text-white font-gilroy-bold font-50px font-sm-50px">Lorem ipsum</h1>
+      </div>
+      <div class="bg-midblue width-fit-content padding-inline-8 cursor-pointer features" *ngIf="currentIdx === 1" (click)="toggleFeatures()">
+        <h1 class="text-white font-gilroy-bold font-50px font-sm-50px">Lorem</h1>
+      </div>
+      <div class="bg-white width-fit-content padding-inline-8 cursor-pointer features" *ngIf="currentIdx === 2" (click)="toggleFeatures()">
+        <h1 class="text-darkblue font-gilroy-bold font-50px font-sm-50px">Lorem Ipsum</h1>
+      </div>
+      <div class="bg-orange width-fit-content padding-inline-8 cursor-pointer features" *ngIf="currentIdx === 3" (click)="toggleFeatures()">
+        <h1 class="text-white font-gilroy-bold font-50px font-sm-50px">Lorem Ipsum Sit</h1>
+      </div>
+      <p class="text-white font-roboto-400 font-24px font-sm-24px text-sm-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+      <button class="hero-cta bg-green font-24px font-sm-24px font-roboto-700 text-white mt-auto">See the best franchises</button>
+    </div>
+    <div>
+      <img src="../../../assets/images/hero-img.png" alt="" *ngIf="!isMobileView">
+      <img src="../../../assets/images/hero-img-mobile.png" alt="" *ngIf="isMobileView">
+    </div>
+  </div>
+</div>
