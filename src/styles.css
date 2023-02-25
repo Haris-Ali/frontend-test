@@ -119,3 +119,68 @@ ul.feature-list li::before {
 }
 
 /* Feature section end */
+
+/* Location section styles */
+
+.carousel-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 30%;
+}
+
+.carousel-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.carousel-item:nth-child(2) img {
+  width: 400px;
+  height: 400px;
+}
+
+.carousel-navigation {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    overflow-x: auto;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+
+  .carousel-item img {
+    width: 250px !important;
+    height: 175px !important;
+  }
+
+  .carousel-navigation {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  .carousel-nav-prev {
+    position: absolute;
+    left: 0;
+  }
+
+  .carousel-nav-next {
+    position: absolute;
+    right: 0;
+  }
+}

@@ -1,0 +1,39 @@
+<div class="bg-darkblue">
+  <div class="container padding-block-70">
+    <div class="d-flex-column justify-content-center align-items-center gap-2rem">
+      <ng-container *ngIf="!isMobileView">
+        <div>
+          <p class="font-gilroy-bold font-50px text-white text-center">Lorem ipsum dolor sit amet</p>
+          <p class="font-gilroy-bold font-50px text-white text-center">adipiscing elit. Donec odio. Quisque volutpat mattis</p>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="isMobileView">
+        <div>
+          <p class="font-gilroy-bold font-30px text-white text-center">Lorem ipsum dolor sit amet</p>
+          <p class="font-gilroy-bold font-30px text-white text-center">dolor sit amet</p>
+          <p class="font-gilroy-bold font-30px text-white text-center">adipiscing elit. Donec odio.</p>
+          <p class="font-gilroy-bold font-30px text-white text-center">Quisque volutpat mattis</p>
+        </div>
+      </ng-container>
+      <p class="font-roboto-400 text-white text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut. Suspendisse urna nibh, viverra non, semper suscipit</p>
+      <div class="carousel-container">
+        <div class="carousel-item">
+          <img src="../../../assets/images/carousel-img-1.png">
+          <p class="font-roboto-500 text-white" style="padding-top: 1rem;">Amazon Mall</p>
+        </div>
+        <div class="carousel-item">
+          <img src="../../../assets/images/carousel-img-3.png">
+          <p class="font-roboto-500 text-white" style="padding-top: 1rem;">Centaurus Mall</p>
+        </div>
+        <div class="carousel-item">
+          <img src="../../../assets/images/carousel-img-2.png">
+          <p class="font-roboto-500 text-white" style="padding-top: 1rem;">Giga Mall</p>
+        </div>
+      </div>
+      <!-- <div class="carousel-navigation">
+        <button class="carousel-nav-prev">&#10094;</button>
+        <button class="carousel-nav-next">&#10095;</button>
+      </div> -->
+    </div>
+  </div>
+</div>

@@ -59,8 +59,16 @@
   gap: 1rem;
 }
 
+.gap-2rem {
+  gap: 2rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -83,5 +91,9 @@
 
   .text-sm-center {
     text-align: center;
+  }
+
+  .padding-inline-sm-40 {
+    padding-inline: 40px;
   }
 }
