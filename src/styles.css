@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/styles/reset.css';
+@import './assets/styles/variables.css';
+@import './assets/styles/color.css';
+@import './assets/styles/fonts.css';
+@import './assets/styles/typography.css';
+@import './assets/styles/utility.css';
+@import './assets/styles/button.css';
+
+.container {
+  --max-width: 1300px;
+  --padding: 1.5rem;
+
+  width: min(var(--max-width), 100% - var(--padding));
+  margin-inline: auto;
+}
+
+.header-container {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .primary-nav {
+    display: none;
+  }
+}

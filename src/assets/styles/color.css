@@ -1,0 +1,27 @@
+.bg-darkblue {
+  background-color: var(--blue-900);
+}
+
+.bg-lightblue {
+  background-color: var(--blue-100);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-green {
+  background-color: var(--green-300);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-darkblue {
+  color: var(--blue-900);
+}
+
+.text-green {
+  color: var(--green-300);
+}

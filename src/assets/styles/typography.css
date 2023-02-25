@@ -1,0 +1,60 @@
+/* All styles related to font size */
+.font-9px {
+  font-size: 9px;
+}
+.font-10px {
+  font-size: 10px;
+}
+.font-11px {
+  font-size: 11px;
+}
+.font-14px {
+  font-size: 14px;
+}
+.font-16px {
+  font-size: 16px;
+}
+.font-18px {
+  font-size: 18px;
+}
+.font-20px {
+  font-size: 20px;
+}
+.font-21px {
+  font-size: 21px;
+}
+.font-24px {
+  font-size: 24px;
+}
+.font-27px {
+  font-size: 27px;
+}
+.font-31px {
+  font-size: 31px;
+}
+.font-45px {
+  font-size: 45px;
+}
+.font-50px {
+  font-size: 50px;
+}
+.font-63px {
+  font-size: 63px;
+}
+
+/* All styles related to font family */
+.font-gilroy-bold {
+  font-family: 'Gilroy Extrabold';
+}
+
+.font-gilroy-light {
+  font-family: 'Gilroy Light';
+}
+
+.font-google-sans {
+  font-family: 'Google Sans';
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

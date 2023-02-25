@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Gilroy Extrabold';
+  src: url('../fonts/Gilroy-Extrabold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy Light';
+  src: url('../fonts/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../fonts/GoogleSans-Regular.ttf') format('truetype');
+}
