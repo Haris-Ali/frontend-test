@@ -257,3 +257,10 @@ ul.feature-list li::before {
 .footer-grid-item {
   text-align: end;
 }
+
+/* Footer section end */ 
+
+.mcdonalds-bg {
+  background-image: url('./assets/images/mcdonalds-img.png');
+  background-repeat: no-repeat;
+}
