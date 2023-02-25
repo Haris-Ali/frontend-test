@@ -18,3 +18,14 @@
 .border-radius-5 {
   border-radius: 5px;
 }
+
+.padding-block-30 {
+  padding-block: 30px;
+}
+
+@media (max-width: 768px) {
+  .ms-sm-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
