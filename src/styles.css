@@ -184,3 +184,23 @@ ul.feature-list li::before {
     right: 0;
   }
 }
+
+/* Location section end */
+
+@media (min-width: 768px) {
+  .info-bg {
+    position: relative;
+  }
+  
+  .info-bg::after {
+    /* content: url('./assets/images/info-img-2.png'); */
+    content: '';
+    background-image: url('./assets/images/info-img-2.png');
+    width: 600px;
+    height: 739px;
+    position: absolute;
+    right: -300px;
+    top: 50px;
+    overflow: hidden;
+  }
+}

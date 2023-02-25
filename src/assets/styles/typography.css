@@ -90,6 +90,10 @@
     font-size: 18px;
   }
 
+  .font-sm-21px {
+    font-size: 16px;
+  }
+
   .text-sm-white {
     color: var(--white);
   }
