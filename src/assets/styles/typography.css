@@ -94,6 +94,10 @@
     font-size: 16px;
   }
 
+  .font-sm-27px {
+    font-size: 20px;
+  }
+
   .text-sm-white {
     color: var(--white);
   }

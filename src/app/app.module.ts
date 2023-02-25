@@ -8,9 +8,30 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { FeaturesComponent } from './components/features/features.component';
 import { LocationsComponent } from './components/locations/locations.component';
 import { InfoComponent } from './components/info/info.component';
+import { ServicesComponent } from './components/services/services.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { CertificateComponent } from './components/certificate/certificate.component';
+import { SuccessStoriesComponent } from './components/success-stories/success-stories.component';
+import { StepsComponent } from './components/steps/steps.component';
+import { InfoNewComponent } from './components/info-new/info-new.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HeroSectionComponent, FeaturesComponent, LocationsComponent, InfoComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HeroSectionComponent,
+    FeaturesComponent,
+    LocationsComponent,
+    InfoComponent,
+    ServicesComponent,
+    FooterComponent,
+    ContactComponent,
+    CertificateComponent,
+    SuccessStoriesComponent,
+    StepsComponent,
+    InfoNewComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

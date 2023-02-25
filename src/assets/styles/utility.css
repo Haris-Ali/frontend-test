@@ -51,6 +51,10 @@
   padding-inline: 8px;
 }
 
+.padding-bottom-70 {
+  padding-bottom: 70px;
+}
+
 .width-fit-content {
   width: fit-content;
 }
@@ -111,5 +115,13 @@
 
   .height-lg-850 {
     height: auto;
+  }
+
+  .w-sm-85 {
+    width: 85%;
+  }
+
+  .padding-bottom-70 {
+    padding-bottom: 30px;
   }
 }

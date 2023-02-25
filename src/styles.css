@@ -187,13 +187,14 @@ ul.feature-list li::before {
 
 /* Location section end */
 
+/* Info section styles */
+
 @media (min-width: 768px) {
   .info-bg {
     position: relative;
   }
   
   .info-bg::after {
-    /* content: url('./assets/images/info-img-2.png'); */
     content: '';
     background-image: url('./assets/images/info-img-2.png');
     width: 600px;
@@ -204,3 +205,35 @@ ul.feature-list li::before {
     overflow: hidden;
   }
 }
+
+/* Info section end */
+
+/* Service section styles */
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.service-grid .grid-item img {
+  width: 220px;
+  height: 220px;
+}
+
+.grid-item {
+  gap: 1rem;
+}
+
+@media (max-width: 767px) {
+  .service-grid {
+    grid-template-columns: auto;
+  }
+
+  .service-grid .grid-item img {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+/* Service section end */
