@@ -27,6 +27,10 @@
   margin-top: auto;
 }
 
+.mb-auto {
+  margin-bottom: auto;
+}
+
 .border-radius-5 {
   border-radius: 5px;
 }
@@ -55,6 +59,10 @@
   padding-bottom: 70px;
 }
 
+.padding-block-82 {
+  padding-block: 82px;
+}
+
 .width-fit-content {
   width: fit-content;
 }
@@ -81,6 +89,14 @@
 
 .height-lg-850 {
   height: 850px;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.grid-column-2 {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 768px) {
