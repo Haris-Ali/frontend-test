@@ -95,3 +95,27 @@ nav.primary-nav a.button {
   top: 5px;
   position: relative;
 }
+
+/* Hero section end */
+
+/* Feature section styles */
+
+ul.feature-list {
+  list-style: none;
+}
+
+ul.feature-list li::before {
+  content: url('./assets/images/check.svg');
+  margin-right: 40px;
+}
+
+@media (max-width: 767px) {
+  .feature-bg-sm {
+    background-image: url('./assets/images/feature-bg.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+  }
+}
+
+/* Feature section end */

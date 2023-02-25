@@ -11,6 +11,10 @@
   justify-content: space-between;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -33,6 +37,14 @@
 
 .padding-block-5rem {
   padding-block: 5rem;
+}
+
+.padding-block-70 {
+  padding-block: 70px;
+}
+
+.padding-bottom-58 {
+  padding-bottom: 58px;
 }
 
 .padding-inline-8 {
