@@ -63,6 +63,10 @@
   padding-block: 82px;
 }
 
+.padding-inline-15rem {
+  padding-inline: 15rem;
+}
+
 .width-fit-content {
   width: fit-content;
 }
@@ -139,5 +143,9 @@
 
   .padding-bottom-70 {
     padding-bottom: 30px;
+  }
+
+  .padding-inline-15rem {
+    padding-inline: 1rem;
   }
 }

@@ -26,6 +26,10 @@
   background-color: var(--orange);
 }
 
+.bg-blue-gradient {
+  background: transparent linear-gradient(114deg, var(--blue-200) 0%, var(--blue-900) 100%) 0% 0% no-repeat padding-box;
+}
+
 .text-white {
   color: var(--white);
 }
